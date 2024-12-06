@@ -6,7 +6,7 @@ private:
     ListaPuntatori<T> lista;
 
 public:
-    // Inserire un eemento nella pila
+    // Inserire un elemento nella pila
     void push(T valore) {
        lista.inslista(valore, 1);
     }
@@ -23,11 +23,11 @@ public:
           return(lista.leggilista(1));
     }
 
-    //restituisce true se la pila è vuota altrimenti false
+    // Restituisce true se la pila è vuota altrimenti false
     bool isEmpty(){
       return(lista.listavuota());
     }
-    //restituisce il numero di elementi nella pila
+    // Restituisce il numero di elementi nella pila
     int size(){
       return(lista.lunghezza());
     }
