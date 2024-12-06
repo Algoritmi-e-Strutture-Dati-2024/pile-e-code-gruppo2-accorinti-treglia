@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+    
     // Creazione della pila
     Pila<T> Pila1;
     // Inserisce alcuni elementi nella pila
@@ -22,12 +23,13 @@ int main() {
     cout << "Dopo la cancellazione, elemento alla posizione 2: " << Pila1.leggilista(2) << endl;
     // Ottieni il valore in cima alla pila senza rimuoverlo
     cout << "L'elemento in cima alla pila è " << Pila1.top() << endl;
-    //restituire true se la pila è vuota altrimenti false
+    // Restituire true se la pila è vuota altrimenti false
     Pila1.isEmpty();
-    //restituisce il numero di elementi nella pila
+    // Restituisce il numero di elementi nella pila
     Pila1.size();
-
-
+    
+    -------------------------------------------------------------------------------------------------
+        
     // Creazione della coda
     Coda<T> Coda1;
     // Inserisce alcuni elementi nella coda
@@ -45,9 +47,15 @@ int main() {
     cout << "Dopo la cancellazione, elemento alla posizione 2: " << Pila1.leggilista(2) << endl;
     // Ottieni il valore in cima alla testa della coda senza rimuoverlo
     cout << "L'elemento in cima alla pila è " << Coda1.front() << endl;
-    //restituire true se la coda è vuota altrimenti false
+    // Restituire true se la coda è vuota altrimenti false
     Coda1.isEmpty();
-    //restituisce il numero di elementi nella pila
-    Coda1.size();  
+    // Restituisce il numero di elementi nella pila
+    Coda1.size(); 
+    
     return 0;
 }
+
+double valuta_polacca(Coda<T> Coda2){    
+    
+}
+
