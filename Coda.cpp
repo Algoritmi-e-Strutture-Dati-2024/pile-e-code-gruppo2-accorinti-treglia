@@ -18,16 +18,16 @@ public:
         return(elem);
     }
 
-    // restituisce il valore in testa alla coda senza rimuoverlo
+    // Restituisce il valore in testa alla coda senza rimuoverlo
     T front() {
           return(lista.leggilista(1));
     }
 
-    //restituisce true se la coda è vuota altrimenti false
+    // Restituisce true se la coda è vuota altrimenti false
     bool isEmpty(){
       return(lista.listavuota());
     }
-    //restituisce il numero di elementi nella coda
+    // Restituisce il numero di elementi nella coda
     int size(){
       return(lista.lunghezza());
     }
